@@ -107,8 +107,7 @@ function getArea(shape: Shape): number {
 
 ---
 
-## Conclusion
-
-Understanding TypeScript's advanced type system empowers developers to write more robust and safe code. `keyof` helps build generic, type-safe utilities, while knowing when to use `any`, `unknown`, or `never` allows for more predictable behavior and maintainability.
+So, we can see that
+ `keyof` helps build generic, type-safe utilities, while knowing when to use `any`, `unknown`, or `never` allows for more predictable behavior and maintainability.
 
 ---
