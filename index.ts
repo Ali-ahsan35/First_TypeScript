@@ -12,9 +12,11 @@
         }
     }
 
-    console.log(formatString("Hello"));          
-    console.log(formatString("Hello", true));
-    console.log(formatString("Hello", false));
+    function filterByRating(
+        items: { title: string; rating: number }[]
+      ): { title: string; rating: number }[] {
+        return items.filter(item => item.rating >= 4);
+      }
 
     // 
 }
